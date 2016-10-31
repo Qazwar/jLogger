@@ -45,7 +45,6 @@ int main()
 	{
 		std::srand((unsigned int) time(0));
 		std::thread t[threadsCount];
-		std::cout.width(60);
 		std::ofstream file("file.txt");
 		
 		//jLogger::LoggerStream logger(file, std::make_unique<jLogger::LayoutBasic>());
@@ -65,7 +64,7 @@ int main()
 	}
 	catch (...)
 	{
-		std::cout << "lol";
+		std::cout << "Unknown exception";
 	}
 	return 0;
 }

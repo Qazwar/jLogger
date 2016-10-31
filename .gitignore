@@ -1,0 +1,8 @@
+ConsoleApplication1/x64/
+ipch/
+x64/
+ConsoleApplication1/Debug/
+.vs/
+RandomMultiThreadLog.VC.VC.opendb
+RandomMultiThreadLog.VC.db
+Debug/
